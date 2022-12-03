@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Profile
+{% endblock %}
+
+{% block main %}
+    <div>
+        <table class="table table-success table-striped">
+            <thead>
+                <tr>
+                    <td>Inventory</td>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td>{{ now_cash }} $</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <table class="table table-success table-striped">
+            <thead>
+                <tr>
+                    <td>Symbol</td>
+                    <td>Name</td>
+                    <td>Number</td>
+                    <td>Share</td>
+                    <td>Totall Cost</td>
+                </tr>
+            </thead>
+            <tbody>
+                {% for sym in symboles %}
+                <tr>
+                    <td>{{ sym["symbole"] }}</td>
+                    <td>{{ sym["name"] }}</td>
+                    <td>{{ sym["number"] }}</td>
+                    <td>{{ sym["share_price"] }}</td>
+                    <td>{{ sym["shares_price"] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

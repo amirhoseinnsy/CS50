@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Exercise</title>
+</head>
+<body>
+    <div class="p-3 mb-2 bg-primary text-white">
+        <div class="row justify-content-start">
+            <div class="col-1">
+                <h3 style="display: inline;">AmirHosein</h3>
+            </div>
+            <div class="col-10"></div>
+            <div class="col-1">
+                <form action="./index.html">
+                    <button type="submit" class="btn btn-primary">Home</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div style="height: 50px;"></div>
+    <div class="row justify-content-start" id="bodybuilding">
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+            <img src="./bodybuilding.jpeg" alt="" id="bodyb">
+        </div>
+        <div class="col-2"></div>
+        <div class="col-4">
+            <h1>Bodybuilding</h1>
+            <p id="bodyi">
+                Body building or body beauty is a sport in which a bodybuilder takes care of her health by doing strength and endurance exercises, as well as proper nutrition and food to build a bulky body.
+            </p>
+        </div>
+    </div>
+    <div style="height: 100px;"></div>
+    <div class="section">
+        <h3>
+           what is your favorit sport?
+        </h3>
+        <input type="text" id="text">
+        <form onclick="print_answer(); return false;">
+            <button type="button" class="btn btn-primary" id="Sport">Press Here &#128516;</button>
+        </form>
+        <div style="height: 50px;"></div>
+        <p id="answer"></p>
+    </div>
+</body>
+</html>

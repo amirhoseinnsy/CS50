@@ -1,0 +1,33 @@
+p {
+    text-align: center;
+    font-size: 100px;
+}
+
+#long {
+    height: 150px;
+}
+
+form {
+    display: inline;
+}
+
+#text {
+    width: 500px;
+    text-align: center;
+}
+
+#search {
+    margin-top: 7px;
+}
+
+#small {
+    margin: 4px;
+}
+
+#fild {
+    margin: 5px;
+}
+
+#adtext {
+    width: 500px;
+}

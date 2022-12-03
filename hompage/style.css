@@ -1,0 +1,92 @@
+#introduce {
+    font-size: large;
+    margin-left: 30px;
+}
+
+.btn {
+    margin: 10px;
+    margin-left: 20px;
+}
+
+#me {
+    width: 200px;
+    height: 200px;
+}
+
+form {
+    display: inline;
+}
+
+#about_me:hover {
+    background-color: aqua;
+}
+
+#bodybuilding:hover {
+    background-color: aqua;
+}
+
+#bodyb {
+    width: 200px;
+    height: 200px;
+}
+
+#bodyi {
+    font-size: large;
+}
+
+.section {
+    margin-left: 150px;
+}
+
+#Sport {
+    width: 300px;
+}
+
+#text {
+    text-align: center;
+    width: 300px;
+    margin-top: 40px;
+}
+
+#answer{
+    text-align: center;
+}
+
+#code:hover {
+    background-color: aqua;
+}
+
+#codeimage {
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+#codetext {
+    font-size: large;
+}
+
+#btncode {
+    width: 200px;
+    background-color: #0d6efd;
+}
+
+#btncode:hover {
+    background-color: #0dcaf0;
+}
+
+#englishimage {
+    margin-top: 40px;
+    width: 400px;
+    height: 300px;
+}
+
+#englishtext {
+    margin-left: 50px;
+}
+
+#persionimage {
+    margin-top: 40px;
+    width: 300px;
+    height: 200px;
+}
